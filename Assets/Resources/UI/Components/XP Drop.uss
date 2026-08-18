@@ -1,0 +1,21 @@
+#xp-drop {
+    flex-direction: row;
+    background-color: rgb(34, 34, 34);
+    padding: 4px;
+}
+
+#icon {
+    flex-grow: 0;
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+}
+
+Label {
+    margin: 0;
+    padding: 0 0 0 10px;
+    -unity-text-align: middle-left;
+    color: rgb(255, 255, 255);
+}

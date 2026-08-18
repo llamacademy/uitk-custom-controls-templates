@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/LlamAcademy/Scripts/UI/Stat%20Orb.uss?fileID=7433441132597879392&amp;guid=c57fd9066f4dd9d4eac634067c3457c5&amp;type=3#Stat Orb"/>
+    <ui:VisualElement name="orb-root" style="flex-grow: 1; align-items: auto; justify-content: flex-end;">
+        <ui:VisualElement name="fill">
+            <Bindings>
+                <ui:DataBinding property="style.height"
+                                data-source="/Assets/LlamAcademy/Scripts/UI/Health.asset" 
+                                data-source-path="Health" 
+                                binding-mode="ToTarget"
+                />
+            </Bindings>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

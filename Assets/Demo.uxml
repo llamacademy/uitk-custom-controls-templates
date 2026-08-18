@@ -1,0 +1,18 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Styles.uss?fileID=7433441132597879392&amp;guid=9c0690761e83c95408e5547a6e70815d&amp;type=3#Styles"/>
+    <ui:VisualElement name="resources-container" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Textures/Resources%20Container%20Background.png?fileID=2800000&amp;guid=f8f652cb3d799fe4685436b5aa267b1e&amp;type=3#Resources Container Background&quot;); position: absolute; top: 15px; right: 0; width: 400px; height: 100px; -unity-background-image-tint-color: rgb(34, 34, 34); flex-direction: row; align-items: center; justify-content: flex-start; padding-left: 75px;">
+        <ui:VisualElement style="flex-grow: 0; width: 75px; height: 75px; background-image: url(&quot;project://database/Assets/Textures/LlamAcademy/Avatar%20with%20Badge.png?fileID=2800000&amp;guid=0aa360cbd6267c1498539f92dbb49273&amp;type=3#Avatar with Badge&quot;); background-size: 125% 125%;"/>
+        <ui:Label text="1,337" style="font-size: 50px; color: rgb(255, 255, 255); margin-left: 15px; -unity-text-align: upper-left; padding-top: 0; margin-top: -15px; padding-bottom: 0; margin-bottom: 0;"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="bottom-bar-container" style="flex-grow: 1; position: absolute; bottom: 0; left: 0; right: 0; height: 300px; background-image: url(&quot;project://database/Assets/Textures/Grunge%20Bar-Final.png?fileID=2800000&amp;guid=01b33ede42cfbce4e9cd609de66d01c9&amp;type=3#Grunge Bar-Final&quot;); -unity-background-image-tint-color: rgb(34, 34, 34); justify-content: center; align-content: center; flex-direction: row;">
+        <ui:Button text="Button" name="Button" style="height: 100px; width: 400px; align-self: center;"/>
+        <ui:Button text="Button" name="Button" style="height: 100px; width: 400px; align-self: center;"/>
+        <ui:Button text="Button" name="Button" style="height: 100px; width: 400px; align-self: center;"/>
+    </ui:VisualElement>
+    <ui:Label text="BIG POPUP TEXT" name="overlay-text" style="top: 100px; font-size: 72px; -unity-text-align: middle-center; filter: drop-shadow(3 3 0 rgb(0, 0, 0)); position: relative;"/>
+    <ui:Label text="TR&#x9;" name="top-right-text" style="position: absolute; top: 0; right: 0; background-color: rgb(34, 34, 34);"/>
+    <ui:Label text="TL" name="top-left-text" style="position: absolute; top: 0; right: auto; background-color: rgb(34, 34, 34); left: 0;"/>
+    <ui:Label text="BL&#x9;" name="bottom-left-text" style="position: absolute; top: auto; right: auto; background-color: rgb(34, 34, 34); left: 0; bottom: 0;"/>
+    <ui:Label text="BR" name="bottom-right-text" parse-escape-sequences="false" style="position: absolute; top: auto; right: 0; background-color: rgb(34, 34, 34); left: auto; bottom: 0;"/>
+    <ui:Button text="Button" name="centered-button" style="height: 100px; width: 400px; align-self: center; position: absolute; top: 50%; bottom: 50%; margin-top: -50px; margin-bottom: 1px; padding-top: 4px;"/>
+</ui:UXML>

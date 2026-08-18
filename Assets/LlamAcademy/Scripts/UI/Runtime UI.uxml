@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="stat-orb" src="project://database/Assets/LlamAcademy/Scripts/UI/StatOrb.uxml?fileID=9197481963319205126&amp;guid=992b31ea226e3b841bc9bba9afc8095c&amp;type=3#StatOrb"/>
+    <ui:Instance name="hp-orb" template="stat-orb" style="top: 50px; right: 50px; width: 75px; height: 75px; position: absolute;"/>
+    <ui:VisualElement name="xp-drop-container" style="height: 100%; width: 300px;" />
+</ui:UXML>

@@ -1,0 +1,6 @@
+* {
+    -unity-font-definition: url("project://database/Assets/Fonts/Labrada-VariableFont_wght%20SDF.asset?fileID=11400000&guid=20398a1001561c340988c37ae6dda6c3&type=2#Labrada-VariableFont_wght SDF");
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+}
+
